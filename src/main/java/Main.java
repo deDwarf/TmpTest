@@ -78,6 +78,14 @@ public class Main {
     }
 
     private boolean checkTypesFit(Type[] methodTypes, Type[] expectedTypes) {
+        // if both null -> ok
+        if (methodTypes == null && expectedTypes == null) {
+            return true;
+        }
+        // if only one null -> not ok
+        if (methodTypes == null || expectedTypes == null) {
+            return true;
+        }
         if (methodTypes.length != expectedTypes.length) {
             return false;
         }
@@ -90,7 +98,7 @@ public class Main {
     }
 
     private <T> Method findMethod(Class<T> cls, String methodName, Type... paramTypes) {
-        if (cls == null) {
+        if (cls == null || methodName == null) {
             return null;
         }
         for (Method m: cls.getDeclaredMethods()){
