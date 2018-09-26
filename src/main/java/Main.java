@@ -84,7 +84,7 @@ public class Main {
         }
         // if only one null -> not ok
         if (methodTypes == null || expectedTypes == null) {
-            return true;
+            return false;
         }
         if (methodTypes.length != expectedTypes.length) {
             return false;
