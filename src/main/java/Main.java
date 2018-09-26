@@ -62,6 +62,9 @@ public class Main {
     }
 
     private <T> Method findMethod(Class<T> cls, String methodName) {
+        if (cls == null) {
+            return null;
+        }
         for (Method m: cls.getDeclaredMethods()){
             if (m.getName().equals(methodName)) {
                 return m;
@@ -90,6 +93,6 @@ public class Main {
         Main main = new Main();
         Doc doc = new Doc();
 
-        main.invokeCallMethod(doc, B.class, "call");
+        main.invokeCallMethod(doc, B.class, "aaa");
     }
 }
