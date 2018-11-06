@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67fb7a5a-65b5-4656-9f00-eeb87a920610" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/A.class" afterPath="$PROJECT_DIR$/target/classes/A.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/B.class" afterPath="$PROJECT_DIR$/target/classes/B.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/C.class" afterPath="$PROJECT_DIR$/target/classes/C.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Doc.class" afterPath="$PROJECT_DIR$/target/classes/Doc.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.iml" afterPath="$PROJECT_DIR$/Test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/IPP/README.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +33,8 @@
       <file leaf-file-name="DatabaseAccessFacade.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/IPP/Facade/DatabaseAccessFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="method#DatabaseAccessFacade#0;class#DatabaseAccessFacade#0" expanded="true" />
                 <element signature="e#142#143#0" expanded="true" />
@@ -379,6 +375,14 @@
       <option name="presentableId" value="Default" />
       <updated>1537972961226</updated>
     </task>
+    <task id="LOCAL-00001" summary="flyweight">
+      <created>1541169608983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541169608983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -413,6 +417,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="flyweight" />
+    <option name="LAST_COMMIT_MESSAGE" value="flyweight" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,15 +630,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/IPP/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IPP/Facade/DatabaseAccessFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseAccessFacade#0;class#DatabaseAccessFacade#0" expanded="true" />
             <element signature="e#142#143#0" expanded="true" />
